@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\code\\C\u002B\u002B\\LeetCode\\641doubleQueue\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB4F95B-4D9E-4753-98F7-A28B92F7CEC4}|641doubleQueue\\641doubleQueue.vcxproj|E:\\code\\C\u002B\u002B\\LeetCode\\641doubleQueue\\641doubleQueue\\doubleQueue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7DB4F95B-4D9E-4753-98F7-A28B92F7CEC4}|641doubleQueue\\641doubleQueue.vcxproj|solutionrelative:641doubleQueue\\doubleQueue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "doubleQueue.cpp",
+              "DocumentMoniker": "E:\\code\\C\u002B\u002B\\LeetCode\\641doubleQueue\\641doubleQueue\\doubleQueue.cpp",
+              "RelativeDocumentMoniker": "641doubleQueue\\doubleQueue.cpp",
+              "ToolTip": "E:\\code\\C\u002B\u002B\\LeetCode\\641doubleQueue\\641doubleQueue\\doubleQueue.cpp",
+              "RelativeToolTip": "641doubleQueue\\doubleQueue.cpp",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-29T09:17:37.025Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
