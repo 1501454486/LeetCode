@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\code\\C\u002B\u002B\\test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0460B65-3E5B-4BE1-8680-42FD98C893E2}|C:\\Users\\lxy15\\AppData\\Roaming\\Microsoft\\VisualStudio\\17.0_4b2e9e40\\SingleFileISense\\_sfi_f15cac4e-249b-462b-8e18-924abe1b4f8a_.vcxproj|E:\\code\\C\u002B\u002B\\LeetCode\\155minStack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "155minStack.cpp",
+              "DocumentMoniker": "E:\\code\\C\u002B\u002B\\LeetCode\\155minStack.cpp",
+              "RelativeDocumentMoniker": "..\\LeetCode\\155minStack.cpp",
+              "ToolTip": "E:\\code\\C\u002B\u002B\\LeetCode\\155minStack.cpp",
+              "RelativeToolTip": "..\\LeetCode\\155minStack.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-28T10:48:13.337Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
