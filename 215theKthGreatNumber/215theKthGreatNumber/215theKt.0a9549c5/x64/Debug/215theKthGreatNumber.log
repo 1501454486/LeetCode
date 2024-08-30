@@ -1,0 +1,9 @@
+﻿  mergeSort.cpp
+  quickSort.cpp
+E:\code\C++\LeetCode\215theKthGreatNumber\215theKthGreatNumber\mergeSort.cpp(11,40): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\code\C++\LeetCode\215theKthGreatNumber\215theKthGreatNumber\quickSort.cpp(25,40): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  randomSelect.cpp
+E:\code\C++\LeetCode\215theKthGreatNumber\215theKthGreatNumber\randomSelect.cpp(26,30): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\code\C++\LeetCode\215theKthGreatNumber\215theKthGreatNumber\randomSelect.cpp(27,50): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  215theKthGreatNumber.vcxproj -> E:\code\C++\LeetCode\215theKthGreatNumber\215theKthGreatNumber\x64\Debug\215theKthGreatNumber.exe

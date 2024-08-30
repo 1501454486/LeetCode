@@ -1,0 +1,64 @@
+#include <vector>
+#include <random>
+
+using namespace std;
+
+class Random {
+private:
+    mt19937 engine;
+public:
+    Random() : engine(random_device{}()) {}
+
+    int nextInt(int l, int r) {
+        uniform_int_distribution<int> distribution(l, r);
+        return distribution(engine);
+    }
+};
+
+static int first, last;
+
+class Solution {
+private:
+    Random randomGenerator;
+public:
+    int findKthLargest(vector<int>& nums, int k) {
+        quickSort(nums, 0, nums.size() - 1);
+        return nums[nums.size() - k];
+    }
+
+    void quickSort(vector<int>& nums, int l, int r) {
+        // base case:
+        if (l >= r) {
+            return;
+        }
+        int x = nums[randomGenerator.nextInt(l, r)];
+        partition(nums, l, r, x);
+        int left = first;
+        int right = last;
+        quickSort(nums, l, left - 1);
+        quickSort(nums, right + 1, r);
+    }
+
+    void partition(vector<int>& nums, int l, int r, int x) {
+        first = l;
+        last = r;
+        int i = l;
+        while (i <= last) {
+            if (nums[i] == x) {
+                i++;
+            }
+            else if (nums[i] < x) {
+                swap(nums[i++], nums[first++]);
+            }
+            else {
+                swap(nums[i], nums[last--]);
+            }
+        }
+    }
+
+    void swap(int& a, int& b) {
+        int temp = a;
+        a = b;
+        b = temp;
+    }
+};
