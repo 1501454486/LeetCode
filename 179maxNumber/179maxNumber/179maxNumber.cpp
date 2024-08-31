@@ -1,11 +1,47 @@
 #include <vector>
 #include <string>
+#include <iostream>
 
 using namespace std;
+
+class comparor {
+public:
+    // if a is prior to b, return -1;
+    // else if a is inferior to b, return 1;
+    // else return 0
+    int compare(int a, int b) {
+        string s1 = to_string(a) + to_string(b);
+        string s2 = to_string(b) + to_string(a);
+        if (s1 > s2) {
+            return -1;
+        }
+        else if(s1 < s2) {
+            return 1;
+        }
+        else {
+            return 0;
+        }
+    }
+
+    int compare(string a, string b) {
+        string s1 = a + b;
+        string s2 = b + a;
+        if (s1 > s2) {
+            return -1;
+        }
+        else if (s1 < s2) {
+            return 1;
+        }
+        else {
+            return 0;
+        }
+    }
+};
 
 class Solution {
 private:
     vector<int> helper;
+    comparor numComparor;
 public:
     string largestNumber(vector<int>& nums) {
         helper.resize(nums.size());
@@ -30,7 +66,8 @@ public:
         int r = leftEnd + 1;
         int i = l;
         while (l <= leftEnd && r <= rightEnd) {
-            if (nums[l] >= nums[r]) {
+            // if left number is prior
+            if (numComparor.compare(nums[l], nums[r]) <= 0) {
                 helper[i++] = nums[l++];
             }
             else {
@@ -53,6 +90,10 @@ public:
         string result;
         for (int num : nums) {
             result += to_string(num);
+        }
+        if (numComparor.compare(result, "0") == 0) {
+            // if result == 0
+            result = "0";
         }
         return result;
     }

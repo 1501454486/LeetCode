@@ -18,5 +18,11 @@
     <ClCompile Include="orderArray.cpp">
       <Filter>资源文件</Filter>
     </ClCompile>
+    <ClCompile Include="heapSort.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="radixSort.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
